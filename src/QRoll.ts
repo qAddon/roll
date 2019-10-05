@@ -51,7 +51,7 @@ export class QRoll {
         // only continue if the player is within a party
         // this check also works for raids
         if (!UnitInParty("player")) {
-            // return;
+            return;
         }
 
         // args[0] contains the raw chat message. try to extract a
