@@ -1,0 +1,23 @@
+{
+  "name": "@qaddon/roll",
+  "version": "1.0.0",
+  "description": "displays an overview about player random rolls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qaddon",
+    "wow",
+    "typescript",
+    "qhun"
+  ],
+  "author": "wartoshika <dev@qhun.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@wartoshika/lua-declarations": "0.0.1",
+    "@wartoshika/qhun-transpiler": "1.0.0-alpha.7",
+    "@wartoshika/wow-declarations": "8.2.5-release.1",
+    "tslint": "^5.20.0"
+  }
+}

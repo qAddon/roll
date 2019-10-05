@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "target": "es5",
+        "lib": [
+            "es2018"
+        ],
+        "sourceMap": false,
+        "typeRoots": [
+            "node_modules/@types",
+            "node_modules/@wartoshika/wow-declarations",
+            "node_modules/@wartoshika/lua-declarations"
+        ]
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
