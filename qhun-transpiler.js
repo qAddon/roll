@@ -1,5 +1,4 @@
-// var Transpiler = require("@wartoshika/qhun-transpiler");
-var Transpiler = require("H:\\Prog\\Typescript\\qhun-transpiler\\dist\\api.js");
+var Transpiler = require("@wartoshika/qhun-transpiler");
 
 new Transpiler.Api("wow", {
     entrypoint: "./src/initialization.ts",
